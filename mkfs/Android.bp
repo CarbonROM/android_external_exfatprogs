@@ -2,6 +2,7 @@
 
 cc_binary {
     name: "mkfs.exfat",
+    system_ext_specific: true,
 
     srcs: [
         "mkfs.c",
