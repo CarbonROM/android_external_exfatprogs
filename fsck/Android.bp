@@ -2,6 +2,7 @@
 
 cc_binary {
     name: "fsck.exfat",
+    product_specific: true,
 
     srcs: [
         "de_iter.c",
